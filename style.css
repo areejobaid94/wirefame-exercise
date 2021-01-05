@@ -1,0 +1,13 @@
+body, main, header, ul, nav {
+    margin: 0px;
+    width: 100%;
+    text-align: center;
+}
+header{
+    background-color: #444444;
+}
+
+li, img{
+    display: inline;
+    vertical-align: middle;
+}
