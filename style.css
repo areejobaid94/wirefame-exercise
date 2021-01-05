@@ -6,21 +6,22 @@ body, main, header, ul, nav, footer, section {
 header{
     background-color: #444444;
     color: #7d7d7d;
-    padding: 1%;
     font-size: 120%;
-    margin-bottom: 1vw;
+    margin-bottom: 1%;
 }
-
+nav{
+    padding: 1%;
+}
 header li{
     display: inline;
     vertical-align: middle;
-    margin: 3vw;
+    margin: 3%;
 }
 
 header img{
     vertical-align: middle;
-    margin-left: -10.2vw;
-    margin-right: -3vw;
+    margin-left: -10.2%;
+    margin-right: -3%;
     
 }
 main img{
@@ -28,9 +29,49 @@ main img{
 }
 footer{
   background-color: #444444;
-  height: 20vh;
+  margin-top: 40px;
+  clear: both;
+  position: relative;
+  height: 90px;
+  width: 100%;
 }
-aside{
-    width: 480px;
-    height: 400px;
+button:hover {
+    background-color: green;
+    transition:  background-color 1s;
+}
+
+div div,div section {
+    width: 100%;
+}
+
+div div img{
+    width: 22%;
+}
+
+div section img{
+    width: 71%;
+}
+div aside{
+    width: 100%;
+    height: 300px;
+    float: left;
+    margin-bottom: 3.5%;
+}
+div aside img, div aside div{
+    width: 35%;
+    overflow: hidden;
+    height: 300px;
+    display: inline-block;
+}
+
+div aside div div{
+    height: 260px;
+    text-align: left;
+    margin: 0px;
+    width: 95%;
+}
+button{
+    background-color: black;
+    color: white;
+    float: left;
 }
