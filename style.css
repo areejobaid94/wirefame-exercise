@@ -1,13 +1,20 @@
 body, main, header, ul, nav {
     margin: 0px;
     width: 100%;
-    text-align: center;
 }
 header{
     background-color: #444444;
+    color: #7d7d7d;
+    padding: 1%;
 }
 
 li, img{
     display: inline;
     vertical-align: middle;
+}
+main{
+    text-align: center;
+}
+header img{
+    margin-left: 13.5%;
 }
